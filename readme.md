@@ -24,9 +24,9 @@ Your task is to develop this app and implement CI/CD.
 * Create a docker image for running both `image-service` and `viewer-service` (reusing existing Docker Hub images is highly encouraged)
 * Create a docker-compose config to run both `image-service` and `viewer-service` on any local machine
 * Implement CI/CD with Travis (travis-ci.com)
-    * Travis should deploy the `image-service` docker container to Heroku (travis-support ootb) or sloppy.io - whatever you prefer
+    * Travis should deploy the `image-service` docker container to Heroku (travis-support ootb) or sloppy.io or somewhere else - whatever you prefer
     * It should be deployed NOT as a PHP app but as a Dockerized app. Failure to do so results to failing the whole exam.
-    * Travis should deploy the `viewer-service` static file to GitHub Pages (of the same repo) or Firebase Hosting - whatever you prefer
+    * Travis should deploy the `viewer-service` static file to GitHub Pages (of the same repo) or Firebase Hosting or somewhere else - whatever you prefer
     * Note: Make sure to create simple tests for both services before deploying (integral for doing CI/CD)
 * PRs submitted should be built first by Travis
 * Create 2 PRs: 1 designed to have a passing build (your tests pass) and another having a failing build (your tests fail)
