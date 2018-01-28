@@ -34,7 +34,8 @@ Your task is to develop this app and implement CI/CD. The source code of the com
 
 ## Bonus
 
-Implement some form of security on `image-service` to prevent hotlinking
+* Implement some form of security on `image-service` to prevent hotlinking
+* Serve `viewer-service` under a CDN
 
 ## References
 
